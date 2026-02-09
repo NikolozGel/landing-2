@@ -1,0 +1,1192 @@
+{
+  "Header": {
+    "navigation": {
+      "protocol": "PROTOCOL",
+      "markets": "MARKETS",
+      "terminal": "TERMINAL",
+      "docs": "DOCS"
+    },
+    "buttons": {
+      "signIn": "Sign in",
+      "signUp": "Sign Up"
+    }
+  },
+  "heroSection": {
+    "terminalPrompt": "$",
+    "terminalCommand": "initialize",
+    "terminalTarget": "Crypto market",
+    "headingLine1": "DECENTRALIZED",
+    "headingLine2": "TRADING",
+    "headingLine3": "PROTOCOL",
+    "subtitle": "Crypto market infrastructure for permissionless, trustless, and censorship-resistant asset exchange. Built different."
+  },
+  "footer": {
+    "about": "About",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "kyc": "KYC",
+    "aml": "AML",
+    "security": "Security",
+    "support": "Our Support",
+    "company": "Company",
+    "digitalCurrencies": "Digital Currencies",
+    "contact": "Contact",
+    "blog": "Blog",
+    "docs": "Docs",
+    "companyDesc": "Leading the future of digital finance with innovative solutions and unparalleled security.",
+    "copyright": "© 2025 CryptoTrade. All rights reserved.",
+    "ourCompany": {
+      "title": "Our Company",
+      "aboutUs": "About Us",
+      "ourSupport": "Our Support"
+    },
+    "legalAgreements": {
+      "title": "Legal Agreements",
+      "termsAndConditions": "Terms and conditions",
+      "privacyPolicy": "Privacy policy",
+      "kycPolicy": "KYC policy",
+      "amlPolicy": "AML policy"
+    },
+    "tradingPlatform": {
+      "title": "Trading Platform",
+      "Crypto market": "Company"
+    },
+    "bottomLinks": {
+      "amlPolicy": "ANTI-MONEY LAUNDERING POLICY",
+      "privacyPolicy": "PRIVACY POLICY",
+      "termsAndConditions": "TERMS & CONDITIONS"
+    },
+    "bottomText": {
+      "register": "Register by MICA Consulting Ltd",
+      "address": "Rue du Pré-de-la-Bichette 3, 1201 Genève, Switzerland",
+      "copyright": "Copyright © 2025 Crypto market Trading"
+    },
+    "userLogin": "USER LOGIN",
+    "createAccount": "CREATE A NEW ACCOUNT",
+    "tradingProducts": {
+      "title": "Trading Products",
+      "digitalCurrencies": "Digital Currencies",
+      "forex": "Forex",
+      "indices": "Indices",
+      "shares": "Shares",
+      "goods": "Goods"
+    },
+    "marketTrading": {
+      "title": "Market Trading",
+      "accountTypes": "Account types",
+      "paymentMethods": "Payment Methods",
+      "tradingNews": "Trading News"
+    }
+  },
+  "livePrices": {
+    "title": "Live Crypto Prices",
+    "liveLabel": "Live"
+  },
+  "featuresTitle": "Premium Features",
+  "featuresDescription": "Experience professional-grade tools and exclusive benefits designed for serious traders",
+  "features": {
+    "bankSecurity": {
+      "title": "Bank-Grade Security",
+      "description": "Military-grade encryption and multi-signature wallets protect your assets 24/7."
+    },
+    "lightningTrades": {
+      "title": "Lightning-Fast Trades",
+      "description": "Execute trades in milliseconds with our optimized matching engine."
+    },
+    "advancedAnalytics": {
+      "title": "Advanced Analytics",
+      "description": "Professional-grade charting tools and real-time market insights."
+    },
+    "premiumRewards": {
+      "title": "Premium Rewards",
+      "description": "Earn exclusive benefits and cashback on every trade you make."
+    },
+    "coldStorage": {
+      "title": "Cold Storage",
+      "description": "95% of assets stored offline in secure, insured cold wallets."
+    },
+    "deepLiquidity": {
+      "title": "Deep Liquidity",
+      "description": "Access to deep liquidity pools for optimal pricing and execution."
+    }
+  },
+  "testimonialsTitle1": "Trusted by",
+  "testimonialsTitle2": "Professionals",
+  "testimonialsDescription": "See what our community has to say",
+  "testimonials": {
+    "professionalTrader": "Professional Trader",
+    "cryptoInvestor": "Crypto Investor",
+    "dayTrader": "Day Trader",
+    "testimonial1": "The best crypto platform I've used. The interface is sleek, fast, and the rewards program is incredible.",
+    "testimonial2": "CryptoLux combines luxury with functionality. The security features give me peace of mind.",
+    "testimonial3": "Lightning-fast execution and premium charting tools. This platform is a game-changer."
+  },
+  "digitalCurrencies": {
+    "title": "How Does It Work?",
+    "paragraph1": "Digital Currency is a sort of electronic payment that does not depend on banks to validate transactions. It is a multicasting system that enables anybody to make and receive money from anywhere.",
+    "paragraph2": "Digital currencies are based on a distributed public ledger known as a blockchain, which is a permanent record of all transactions that is updated and maintained by currency holders.",
+    "paragraph3": "Digital currency units are formed by a method known as mining, which entails the use of computer control to solve complex mathematical problems that affect coins. Also, users may purchase the currencies via brokers and then store and spend them using encrypted wallets.",
+    "breadcrumb": {
+      "home": "Home",
+      "digitalCurrencies": "Digital Currencies"
+    }
+  },
+  "language": "Language",
+  "visual": {
+    "title": "Trade Anywhere, Anytime",
+    "description": "Experience the future of finance with our cutting-edge trading platform. Built for traders who demand speed, security, and sophistication.",
+    "startTrading": "Start Trading",
+    "viewMarkets": "View Markets",
+    "subtitle": "Access your portfolio on any device with our responsive platform",
+    "feature1": "Real-time market updates",
+    "feature2": "Advanced trading charts",
+    "feature3": "Secure wallet integration",
+    "feature4": "Instant notifications",
+    "liveUpdates": "Live Updates",
+    "mobileTrading": "Mobile Trading",
+    "available": "iOS & Android Apps"
+  },
+  "cryptoPrices": {
+    "liveMarkets": "// LIVE_MARKETS",
+    "topAssets": "TOP_ASSETS",
+    "asset": "ASSET",
+    "price": "PRICE",
+    "change24h": "24H",
+    "volume": "VOLUME",
+    "marketCap": "MCAP",
+    "viewAllMarkets": "VIEW_ALL_MARKETS",
+    "currencySymbol": "$",
+    "positiveSign": "+"
+  },
+  "pricing": {
+    "title": "Choose Your Plan",
+    "subtitle": "Start free and scale as you grow",
+    "starter": "Starter",
+    "starterPrice": "Free",
+    "starterDesc": "Perfect for beginners",
+    "pro": "Pro",
+    "proPrice": "29",
+    "proDesc": "For active traders",
+    "enterprise": "Enterprise",
+    "enterprisePrice": "Custom",
+    "enterpriseDesc": "For institutions",
+    "perMonth": "/month",
+    "selectPlan": "Select Plan",
+    "mostPopular": "Most Popular",
+    "getStarted": "Get Started",
+    "contactSales": "Contact Sales"
+  },
+  "charts": {
+    "title": "Real-Time Market Analytics",
+    "subtitle": "Track market trends with professional-grade charts and data visualization",
+    "bitcoin": "Bitcoin",
+    "ethereum": "Ethereum",
+    "marketOverview": "Market Overview",
+    "price": "Price",
+    "marketActivity": "marketActivity",
+    "volume24h": "24h Volume"
+  },
+  "featuresSection": {
+    "badge": "Why Choose Us",
+    "title": "Built for",
+    "titleHighlight": "Serious Traders",
+    "subtitle": "Enterprise-grade infrastructure meets intuitive design. Everything you need to trade with confidence.",
+
+    "feature1Title": "Lightning Fast",
+    "feature1Desc": "Execute trades in milliseconds with our optimized matching engine. Zero latency, maximum efficiency.",
+
+    "feature2Title": "Bank-Grade Security",
+    "feature2Desc": "256-bit encryption with multi-sig wallets. Your assets protected by institutional-grade security.",
+
+    "feature3Title": "Advanced Analytics",
+    "feature3Desc": "Professional charts with 100+ indicators. Real-time market data and AI-powered insights.",
+
+    "feature4Title": "Cold Storage",
+    "feature4Desc": "95% of assets stored offline in air-gapped cold wallets. Maximum protection for your holdings.",
+
+    "feature5Title": "Global Access",
+    "feature5Desc": "Trade 24/7 from anywhere in the world. Support for 150+ countries with local payment methods.",
+
+    "feature6Title": "API Integration",
+    "feature6Desc": "Robust REST and WebSocket APIs for algorithmic trading. Build your own trading bots.",
+
+    "learnMore": "Learn More",
+    "ctaTitle": "Ready to get started?",
+    "ctaSubtitle": "Join over 2 million traders worldwide",
+    "ctaButton": "Create Free Account"
+  },
+  "pricingSection": {
+    "badge": "Simple Pricing",
+    "title": "Choose Your",
+    "titleHighlight": "Trading Plan",
+    "subtitle": "Transparent pricing with no hidden fees. Upgrade or downgrade anytime.",
+    "popular": "Most Popular",
+    "free": "Free",
+    "perMonth": "month",
+    "ctaFree": "Get Started Free",
+    "ctaPaid": "Start Trading",
+    "trust": [
+      "No credit card required",
+      "Cancel anytime",
+      "24/7 Support",
+      "Secure payments"
+    ],
+    "starter": {
+      "name": "Starter",
+      "description": "Perfect for beginners exploring crypto",
+      "price": "0",
+      "period": "Forever Free",
+      "features": [
+        "Up to $10,000 monthly volume",
+        "Basic charts & analytics",
+        "Email support",
+        "2FA Authentication",
+        "10 cryptocurrencies"
+      ]
+    },
+    "pro": {
+      "name": "Pro",
+      "description": "For active traders and enthusiasts",
+      "price": "29",
+      "period": "per month",
+      "features": [
+        "Unlimited trading volume",
+        "Advanced charts & indicators",
+        "Priority support",
+        "Hardware key support",
+        "150+ cryptocurrencies",
+        "API access",
+        "Tax reports"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "For institutions and high-volume traders",
+      "price": "199",
+      "period": "per month",
+      "features": [
+        "Everything in Pro",
+        "Dedicated account manager",
+        "Custom API limits",
+        "OTC trading desk",
+        "White-label solutions",
+        "SLA guarantee",
+        "Custom integrations"
+      ]
+    }
+  },
+
+  "Community": {
+    "COMMUNITY_PULSE": "COMMUNITY_PULSE",
+    "THE": "THE",
+    "_NETWORK": "_NETWORK",
+
+    "TWITTER": "TWITTER",
+    "DISCORD": "DISCORD",
+    "GITHUB": "GITHUB",
+
+    "TESTIMONIAL_1": {
+      "content": "NEXUS has completely changed how I trade. The speed is unreal and the UX is cleaner than anything else out there."
+    },
+    "TESTIMONIAL_2": {
+      "content": "Finally a protocol that puts developers first. The SDK is incredibly well documented and the team is super responsive."
+    },
+    "TESTIMONIAL_3": {
+      "content": "Been using NEXUS for 6 months now. Zero downtime, zero issues. This is what should be."
+    },
+    "TESTIMONIAL_4": {
+      "content": "The self-custody features give me peace of mind. No more worrying about exchange hacks or withdrawal freezes."
+    },
+
+    "ACTIVE_WALLETS": "ACTIVE WALLETS",
+    "TVL": "TOTAL VALUE LOCKED",
+    "INTEGRATIONS": "INTEGRATIONS",
+    "CHAINS": "CHAINS",
+
+    "JOIN": "join",
+    "CTA_DESCRIPTION": "Connect with 280K+ traders, builders, and natives. Get alpha, share strategies, build the future.",
+    "JOIN_DISCORD": "JOIN_DISCORD",
+    "FOLLOW_TWITTER": "FOLLOW_TWITTER"
+  },
+  "Features": {
+    "PROTOCOL_SPECS": "PROTOCOL_SPECS",
+    "WHY": "WHY",
+    "_NEXUS": "_NEXUS",
+
+    "BATTLE_TESTED": {
+      "title": "BATTLE TESTED",
+      "subtitle": "Security",
+      "description": "Audited smart contracts with multi-sig treasury and insurance fund coverage.",
+      "stats": "$2.4B secured"
+    },
+
+    "SUB_SECOND": {
+      "title": "SUB-SECOND",
+      "subtitle": "Execution",
+      "description": "Lightning-fast order matching with MEV protection and optimistic rollups.",
+      "stats": "<100ms latency"
+    },
+
+    "PERMISSIONLESS": {
+      "title": "PERMISSIONLESS",
+      "subtitle": "Access",
+      "description": "No KYC, no borders, no restrictions. Trade from anywhere, anytime.",
+      "stats": "180+ countries"
+    },
+
+    "SELF_CUSTODY": {
+      "title": "SELF-CUSTODY",
+      "subtitle": "Control",
+      "description": "Your keys, your crypto. Non-custodial trading with hardware wallet support.",
+      "stats": "100% self-custody"
+    },
+
+    "MULTI_CHAIN": {
+      "title": "MULTI-CHAIN",
+      "subtitle": "Interop",
+      "description": "Seamless cross-chain swaps across Ethereum, Solana, Arbitrum, and more.",
+      "stats": "12 chains live"
+    },
+
+    "DEVELOPER": {
+      "title": "DEVELOPER FIRST",
+      "subtitle": "First",
+      "description": "Comprehensive APIs, SDKs, and documentation for builders.",
+      "stats": "500+ integrations"
+    }
+  },
+  "cryptoCharts": {
+    "analyticsEngine": "// ANALYTICS_ENGINE",
+    "realTime": "REAL_TIME",
+    "liveData": "LIVE_DATA",
+    "perpetual": "perpetual",
+    "price": "PRICE",
+    "point": "POINT",
+    "high24h": "HIGH_24H",
+    "low24h": "LOW_24H",
+    "volume": "VOLUME",
+    "marketCap": "MCAP",
+    "currencySymbol": "$",
+    "positiveSign": "+"
+  },
+  "reviews": {
+    "title": "Trusted by Traders Worldwide",
+    "description": "See what our community has to say about their trading experience"
+  },
+
+  "accountTypes2": {
+    "hero": {
+      "title": "Choose Your Trading Account",
+      "subtitle": "Transparent conditions, scalable benefits, and professional-grade tools for every level of trader.",
+      "button": "Open Account"
+    },
+
+    "tiers": {
+      "trial": "Trial",
+      "bronze": "Bronze",
+      "silver": "Silver",
+      "golden": "Golden",
+      "platinum": "Platinum",
+      "vip": "VIP"
+    },
+
+    "features": {
+      "tradingTools": "Trading Tools Access",
+      "spreads": "Spreads",
+      "withdrawals": "Withdrawals",
+      "minimumDeposit": "Minimum Deposit",
+      "customerService": "Customer Support",
+      "liveSessions": "Live Trading Sessions",
+      "leverage": "Maximum Leverage",
+      "dailyMarketReviews": "Daily Market Reviews",
+      "tradingAlerts": "Trading Alerts",
+      "vipMentorship": "VIP Mentorship",
+      "bonusPromotions": "Bonus & Promotions",
+      "aiTradingSoftware": "AI Trading Software",
+      "nfpTradingSignals": "NFP Trading Signals",
+      "arbitrageTrading": "Arbitrage Trading"
+    },
+
+    "values": {
+      "tradingTools": {
+        "trial": "Basic",
+        "bronze": "Standard",
+        "silver": "Advanced",
+        "golden": "Professional",
+        "platinum": "Institutional",
+        "vip": "Full Suite"
+      },
+
+      "spreads": {
+        "trial": "From 2.5 pips",
+        "bronze": "From 2.0 pips",
+        "silver": "From 1.5 pips",
+        "golden": "From 1.0 pips",
+        "platinum": "From 0.6 pips",
+        "vip": "From 0.2 pips"
+      },
+
+      "withdrawals": {
+        "trial": "Manual",
+        "bronze": "Standard",
+        "silver": "Priority",
+        "golden": "Fast",
+        "platinum": "Instant",
+        "vip": "Instant + Dedicated Manager"
+      },
+
+      "minimumDeposit": {
+        "trial": "$0",
+        "bronze": "$250",
+        "silver": "$1,000",
+        "golden": "$5,000",
+        "platinum": "$25,000",
+        "vip": "$100,000"
+      },
+
+      "customerService": {
+        "bronze": "Email Support",
+        "silver": "Email & Chat",
+        "golden": "24/5 Support",
+        "platinum": "24/7 Priority",
+        "vip": "Dedicated Account Manager"
+      },
+
+      "liveSessions": {
+        "trial": "Limited",
+        "bronze": "Monthly",
+        "silver": "Bi-weekly",
+        "golden": "Weekly",
+        "platinum": "Weekly + Q&A",
+        "vip": "Private Sessions"
+      },
+
+      "leverage": {
+        "trial": "1:50",
+        "bronze": "1:100",
+        "silver": "1:200",
+        "golden": "1:300",
+        "platinum": "1:400",
+        "vip": "1:500"
+      },
+
+      "bonusPromotions": {
+        "trial": "Not available",
+        "bronze": "Welcome Bonus",
+        "silver": "Trading Credit",
+        "golden": "Enhanced Bonus",
+        "platinum": "Custom Promotions",
+        "vip": "Exclusive Bonuses"
+      },
+
+      "aiTradingSoftware": {
+        "trial": "No",
+        "bronze": "Limited",
+        "silver": "Standard",
+        "golden": "Advanced",
+        "platinum": "Professional",
+        "vip": "Full AI Suite"
+      },
+
+      "nfpTradingSignals": {
+        "trial": "No",
+        "bronze": "Basic",
+        "silver": "Standard",
+        "golden": "Advanced",
+        "platinum": "Premium",
+        "vip": "Institutional Grade"
+      }
+    },
+
+    "openAccount": "Open Account"
+  },
+  "market": {
+    "badge": "Live Market Data",
+    "title": "Real-Time Market Insights",
+    "description": "Stay ahead with live cryptocurrency prices and market movements updated every 15 seconds.",
+    "loading": "Fetching latest market data...",
+    "errorFetch": "Failed to load market data",
+    "errorGeneric": "Failed to load data",
+    "currentPrice": "Current Price",
+    "movement": "Price Movement"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "breadcrumb": {
+      "home": "Home",
+      "privacy": "Privacy Policy"
+    },
+    "section1": {
+      "title": "Privacy and Security Commitment",
+      "p1": "Privacy Policy makes every effort to ensure that the privacy, confidentiality and security of its customers are maintained both throughout their interaction with the company and beyond, to the fullest extent possible to the company."
+    },
+    "section2": {
+      "title": "Information Collection",
+      "p1": "When customers register with Crypto market, they confirm their willingness to share certain personal information with the company, which we use to verify the customer's identity and ensure the security of their deposits and trading account. This information is collected in accordance with our strict verification procedures, which are used to prevent international money laundering transactions and to ensure the security of our clients' trading activities at all stages."
+    },
+    "section3": {
+      "title": "Customer Commitment",
+      "p1": "Our customers are committed to providing us with true, updated and accurate information about their identity. In addition, they must categorically state that they register and trade in their own name and never attempt to engage in any activity that could be considered fraudulent, nor do they attempt to impersonate others for any purpose."
+    },
+    "section4": {
+      "title": "Data Collection Procedures",
+      "p1": "Crypto Market's data collection procedures include collecting freely disclosed customer information provided to the company and placing cookies to collect data about how the customer interacts with the Crypto Market website. These customer information collection tools are used for the purpose of ensuring the customer's own security, and all data collected by the company is shared only with individuals within the company who are involved in verifying the customer's account information for the express purpose of ensuring the customer's privacy and security."
+    },
+    "section5": {
+      "title": "Information Disclosure",
+      "p1": "Crypto Market will never disclose any private or other confidential information about our clients and former clients to third parties without the express written consent of our clients, except in special cases where disclosure is required by law or is otherwise necessary to conduct due diligence analysis of the client's identity in order to protect his account and personal information."
+    },
+    "section6": {
+      "title": "Customer Consent",
+      "p1": "By registering with Crypto Market and voluntarily interacting with Your Brand products and services, customers acknowledge and agree that they consent to the use of all or part of the information they provide in relation to their Crypto Market merchant account, the transactions they make through it, and interactions which they carry out with the company on behalf of the company. All customer interactions with the company will be stored by the company for record-keeping purposes and can therefore be used by the company in cases where disputes arise between customers and Crypto Market."
+    },
+    "section7": {
+      "title": "Data Security",
+      "p1": "Crypto Market makes every effort to maintain the confidentiality of its customer's personal information, including implementing data security procedures designed to ensure customer privacy. Crypto Market ensures that its data protection policy is updated regularly to ensure that sensitive customer information is always protected."
+    },
+    "section8": {
+      "title": "Communication Policy",
+      "p1": "From time to time, Crypto Market may contact clients by phone or email to provide them with additional information about Crypto Market binary options trading or trading in the financial markets. In addition, the Company may occasionally attempt to contact customers by telephone or email for the purpose of informing them of unique promotional offers provided by Crypto market to the customer. Customers agree to receive such contact when they agree to our terms of use when registering with Crypto market. Any person wishing to opt out of further contact with Crypto market at any time has the right to do so by simply contacting the company by telephone or email and requesting that no further contact be made on behalf of the company."
+    }
+  },
+  "kyc": {
+    "title": "KYC Policy",
+    "breadcrumb": {
+      "home": "Home",
+      "kyc": "KYC Policy"
+    },
+    "section1": {
+      "title": "Introduction",
+      "p1": "Today, compliance with Know Your Customer policies regarding clients is the number one priority among companies in the financial sector. The policy aims to prevent identity theft, money laundering, financial fraud and terrorist activities.",
+      "p2": "Crypto market is completely tolerant of financial fraud and takes all necessary preventive measures to combat various types of financial fraud.",
+      "p3": "Any fraudulent activity will be recorded and documented; all associated accounts will be closed immediately and the funds in those accounts will be frozen."
+    },
+    "section2": {
+      "title": "WARNING",
+      "p1": "Crypto market strives to ensure the safety of any confidential information in the direct access of the company. These include the client's trading account details and the transactions carried out by the client in order to ensure the security of the client's personal data, forcing the company to ask the client to strictly adhere to several rules."
+    },
+    "section3": {
+      "title": "Required Documents",
+      "p1": "Provide a copy of a valid passport with a signature",
+      "p2": "Provide copies of payment cards for making a deposit (front side with the last 4 digits of the account number, back side with CVV)",
+      "p3": "A copy of utility bills must be provided showing the customer's name and residential address",
+      "p4": "Signed online transaction history"
+    },
+    "section4": {
+      "title": "When to Provide Documents",
+      "p1": "Crypto market strongly requires the client to provide all necessary documents before withdrawing funds from the trading account.",
+      "p2": "In some cases, the company may request these documents before allowing any other activity on the trading account, such as deposits or trades.",
+      "p3": "Please note that if the client does not send the necessary documents to the company, then withdrawal requests will be canceled and the funds will be returned to the client's trading account. In this case, the Company will inform the client through the internal messaging system."
+    },
+    "section5": {
+      "title": "How to Send Documents",
+      "p1": "Scan documents or take high-resolution photos. Save pictures in JPEG format with minimal compression. Then send all photos to the company's HR department."
+    },
+    "section6": {
+      "title": "Security Guarantees",
+      "p1": "Crypto market takes a very responsible approach to the issue of protecting personal documentation. Documents sent to the company are treated with the highest level of confidentiality. All files received by the company are fully protected thanks to the highest possible level of encryption at every stage of document review."
+    },
+    "section7": {
+      "title": "Document Protection",
+      "p1": "Are there guarantees for the security of sent documents? Crypto market takes a very responsible approach to the issue of protecting personal documentation. Documents sent to the company are treated with the highest level of confidentiality."
+    }
+  },
+  "aml": {
+    "title": "Anti-Money Laundering Policy",
+    "breadcrumb": {
+      "home": "Home",
+      "aml": "Anti-Money Laundering Policy"
+    },
+    "section1": {
+      "title": "Zero Tolerance Policy",
+      "p1": "Crypto market has a zero tolerance policy towards money laundering and actively assists in the fight against money laundering.",
+      "p2": "Crypto market currently maintains a non-money laundering policy. According to the policy, the company strictly adheres to the following rules:"
+    },
+    "section2": {
+      "title": "Policy Rules",
+      "p1": "The company strictly adheres to the following rules:",
+      "rule1": "Ensure reliable identification of each client",
+      "rule2": "Record information about the Client",
+      "rule3": "Find among clients people associated with terrorism and illegal financial transactions",
+      "rule4": "Make customers understand that information provided to the company may be used to verify their identity",
+      "rule5": "Closely monitor client transactions with funds",
+      "rule6": "Do not accept cash, money transfers, third party transactions, exchange office transfers or Western Union transfers"
+    },
+    "section3": {
+      "title": "Money Laundering Stages",
+      "p1": "There are cases of money laundering, where funds from illegal or criminal activities pass through the financial system as if they came from legitimate sources.",
+      "p2": "There are usually three stages of money laundering:",
+      "stage1": "First, there is cash or cash equivalents in the financial system.",
+      "stage2": "Secondly, there are other accounts for transferring money (for example, futures accounts). They are possible through a series of financial transactions designed to smooth the origin of money (for example, entering into transactions with little or no financial risk or transferring account balances to other accounts)",
+      "stage3": "Ultimately, funds received from legitimate sources are put back into circulation (for example, closing a futures account and transferring funds to a bank account)."
+    },
+    "section4": {
+      "title": "Trading Account Risks",
+      "p1": "Trading accounts with a brokerage company are a great way to launder illegal amounts or hide information about the true owner of funds. In particular, a trading account can be used to make financial transactions that make it possible to hide the source of income."
+    },
+    "section5": {
+      "title": "Prevention Measures",
+      "p1": "To prevent laundering, Crypto market sends money back to the original source of the remittance."
+    },
+    "section6": {
+      "title": "International Requirements",
+      "p1": "There are requirements from anti-money laundering organizations internationally: financial services companies must be aware of possible money laundering abuses that may occur in a client's trading account; they insist on implementing a proactive program to detect, deter and report potential suspicious activity. Crypto market fully adheres to the recommendations of international organizations on combating illicit financial flows to protect the company and its customers."
+    },
+    "section7": {
+      "title": "Contact Information",
+      "p1": "If you have any questions or comments about the company's anti-money laundering policies, please contact us by email at support@cryptomarket.com"
+    }
+  },
+  "support": {
+    "hero": {
+      "title": "24/5 Customer Support",
+      "description": "Contact us anytime if you have any trading issues. You will get direct assistance from our dedicated team of experts.",
+      "button": "CONTACT US"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "support": "Support"
+    },
+    "contact": {
+      "email": "support@cryptomarket.com",
+      "phone": "+447424896957",
+      "address": "155 Newton Drive, Blackpool, England, FY3 8LZ"
+    }
+  },
+  "terms": {
+    "title": "Terms and Conditions",
+    "breadcrumb": {
+      "home": "Home",
+      "terms": "Terms and Conditions"
+    },
+    "section1": {
+      "title": "1. INTRODUCTION – ABOUT US",
+      "p1": "1.1. Crypto market Limited (the Crypto market) is a licensed service provider that provides investment and support services as defined in this Agreement through its online electronic system (the \"Trading Platforms\").",
+      "p2": "1.2. The following describes the terms and conditions on which Crypto market Limited. (Crypto market) offers access to its website to you, the customer (\"you\" or \"user\" or \"client\") and use of its services (\"Agreement\", \"User Agreement\" or \"Online Services\") Agreement\").",
+      "p3": "1.3. Crypto market is owned and operated by Crypto market Limited. This Agreement describes the terms, conditions and risks that apply to your use of our services available on the Crypto market Limited domain and subdomains. If you have any questions regarding this Agreement, please contact Customer Service. Before you can become a customer of Crypto market Limited, you must read, agree to and accept all of the terms and conditions contained in this User Agreement, without modification, including the terms and conditions expressly set forth below and those incorporated by reference. By continuing to access or use the Website, you agree to be bound by the Terms of this Agreement, to the extent they may apply to you."
+    },
+    "section2": {
+      "title": "2. CONTACT US",
+      "p1": "2.1. You may communicate with us in writing (including by fax), by email or other electronic means, or orally (including by telephone). The language of communication will be English and you will receive documents and other information from us in English. However, if necessary and for your convenience, we will endeavor to communicate with you in other languages. By accepting and agreeing to the Terms of this Agreement, you agree to the following terms and conditions and all policies included in the official website of Crypto market.com.",
+      "p2": "2.2. The Company is free to use any idea, concept, know-how, technique or information contained in your communications for any purpose, including, but not limited to, product development and marketing. The Company monitors your communications to evaluate the quality of the service you receive, your compliance with this Agreement, the security of the Website, or for other reasons. You agree that such monitoring activities do not give you any cause of action or other rights with respect to how Company monitors your communications."
+    },
+    "section3": {
+      "title": "3. RIGHT TO MEMBERSHIP",
+      "p1": "3.1. The Services are available and reserved only to individuals or entities who have entered into a legally binding contract under the laws applicable in their country of residence. Without limiting the terms below, our Services are not available to anyone under the age of 18 or under the legal age (\"Minors\"). For the avoidance of any doubt, we disclaim any liability for any unauthorized use of our Services by Minors in any manner.",
+      "p2": "3.2. Without limiting the foregoing, our Services are not available in regions where their use is illegal, and the Company reserves the right to refuse and/or cancel access to its Services to any person in its sole discretion. For the avoidance of any doubt, the ability to access our website does not necessarily mean that our services and/or your activities through it are legal under the laws, regulations or directives applicable to your country of residence."
+    },
+    "section4": {
+      "title": "4. DEFINITIONS – INTERPRETATION",
+      "p1": "4.1. \"Account\" means a personal trading account maintained by the Client with the Company and assigned a specific account number.",
+      "p2": "4.2. \"Access Codes\" means the username and password provided by the Company to the Client to access the Company's website.",
+      "p3": "4.3. \"Agreement\" means these Terms of Use of the Services offered by the Company.",
+      "p4": "4.4. \"Balance\" means the amount held on behalf of the Client in its Client Account for any period of time.",
+      "p5": "4.5. \"Business Day\" means a day that is not a Saturday or Sunday, a public holiday in Belize, or any other holiday advertised by the Company on its website.",
+      "p6": "4.6. \"LSP Authorization\" means the license obtained by the Company from the IFSC, as may be amended from time to time, which specifies the investment and ancillary services that the Company is authorized to provide.",
+      "p7": "4.7. \"CFD\" means \"contract for difference\", consisting of an agreement (contract) to exchange the difference in the value of a specified currency, commodity share or index between the time the contract is opened and the time it closes. Profits or losses are determined by how the prices of the underlying instruments move relative to the price at the time the contract is entered into."
+    },
+    "section5": {
+      "title": "5. PROVISION OF SERVICES",
+      "p1": "5.1. The following are the investment services that the Company is authorized to provide pursuant to its LSP authorization and are subject to this Agreement. It should be clarified and noted that the Company operates on an execution basis only and does not provide advice on the merits of specific Transactions or their tax consequences. You accept all responsibility in respect of any investment strategy, transaction or investment, tax costs, as well as for any consequences arising from any transaction you enter into, and the Company shall not be liable and you shall not rely on the Company for the above."
+    },
+    "section6": {
+      "title": "6. INFORMATION AND REQUIREMENTS FOR OPENING AN ACCOUNT",
+      "p1": "6.1. When you register for the above Services, the Company will ask you to provide certain identifying information. You acknowledge your willingness to share with the Company certain personal information that it uses to verify your identity. This information is collected in accordance with our strict verification procedures, which are used to prevent international money laundering transactions and to ensure the safety and security of our clients' trading activities at all stages, and is subject to the Company's Privacy Policy."
+    },
+    "section7": {
+      "title": "7. GUARANTEES ON BEHALF OF THE CLIENT",
+      "p1": "7.1. You represent, warrant and warrant that any funds transferred to the Company for trading purposes belong solely to you and are not subject to any lien, charge, lien or any other encumbrance."
+    },
+    "section8": {
+      "title": "8. ELECTRONIC COMMERCE",
+      "p1": "8.1. The Company will provide you with access codes to obtain online access to the Company's website and/or trading platforms, which will allow you to place orders for any financial instrument available from the Company and enter into Transactions with the Company."
+    },
+    "section9": {
+      "title": "9. FINANCIAL INFORMATION",
+      "p1": "9.1. Through one or more of its Services, the Company makes available to you a wide range of financial information that is generated internally from agents, suppliers or partners (\"Third Party Providers\")."
+    },
+    "section10": {
+      "title": "10. ORDERS – INSTRUCTIONS AND BASICS OF TRANSACTIONS",
+      "p1": "10.1. You can place an Order through the Company's trading platform. Once the Company receives your instructions or Orders, they cannot be revoked except with the written consent of the Company."
+    },
+    "section11": {
+      "title": "11. CONFIRMATIONS",
+      "p1": "11.1. Confirmations of all transactions that were executed in your Trading Account on the trading day will be available through your online account via the Trading Platform as soon as the transaction is completed."
+    },
+    "section12": {
+      "title": "12. PRICE",
+      "p1": "12.1. The company will name the prices at which it is ready to cooperate with you."
+    },
+    "section13": {
+      "title": "13. REFUSAL TO EXECUTE ORDERS",
+      "p1": "13.1. The Company has the right at any time and for any reason and without any notice and/or explanation to refuse, at its sole discretion, the execution of any Order."
+    },
+    "section14": {
+      "title": "14. CANCELLATION OF TRANSACTIONS",
+      "p1": "14.1. The Company has the right to cancel a transaction if it has sufficient reason/evidence to believe that fraud/illegal activities led to the transaction."
+    },
+    "section15": {
+      "title": "15. COMPLETING TRANSACTIONS",
+      "p1": "15.1. The Company begins to settle all transactions after such transactions have been completed."
+    },
+    "section16": {
+      "title": "16. BONUSES AND PROMOTIONS POLICY",
+      "p1": "16.1. The company offers a number of attractive bonus programs to its new and existing clients who activate their trading account."
+    },
+    "section17": {
+      "title": "17. CUSTOMER FUNDS",
+      "p1": "17.1. Funds belonging to you which will be used for trading purposes will be held in an account with any bank or financial institution used to accept funds as the Company may designate from time to time."
+    },
+    "section18": {
+      "title": "18. SLEEPING ACCOUNT PROCEDURE",
+      "p1": "18.1. You acknowledge and agree that any trading account opened with the Company in which you have not placed trades and/or made deposits for a period exceeding sixty (60) calendar days will be classified by the Company as an Inactive Account."
+    },
+    "section19": {
+      "title": "19. COSTS AND FEES",
+      "p1": "19.1. You agree to pay our fees as agreed to by you from time to time, any fees or other charges imposed by the clearing organization, and interest on any amount due to us at the rates charged by us at that time."
+    },
+    "section20": {
+      "title": "20. LIABILITY AND INDEMNITY OF THE COMPANY",
+      "p1": "20.1. It should be noted that the Company and any person associated with the Company will carry out transactions in good faith and with due diligence, but shall not be liable for any omission, willful omission or fraud on the part of any person, firm or company."
+    },
+    "section21": {
+      "title": "21. DURATION OF THE AGREEMENT AND AMENDMENTS TO IT",
+      "p1": "21.1. This Agreement is valid for an indefinite period unless terminated by the Company, you, or both."
+    },
+    "section22": {
+      "title": "22. IMPROPER OR ABUSE TRADING AND/OR UNAUTHORIZED ACTIVITIES",
+      "p1": "22.1. The Company's goal is to provide the most efficient trading liquidity available in the form of streaming traded prices for the majority of financial instruments we offer on the trading platform."
+    },
+    "section23": {
+      "title": "23. CFD TRADING TERMS",
+      "p1": "23.1. A daily funding fee may be charged on each open Forex CFD position at the close of the Company's trading day in respect of that Forex CFD."
+    },
+    "section24": {
+      "title": "24. TERMINATION",
+      "p1": "24.1. You have the right to terminate the Agreement by providing the Company with at least seven (7) days' prior written notice specifying the date of termination."
+    },
+    "section25": {
+      "title": "25. EVENTS OF INCOMPLETE VALIDITY AND RIGHTS IN THE EVENT OF FAILURE",
+      "p1": "25.1. The following events constitute \"Events of Default\" upon the occurrence of which the Company has the right to exercise its rights."
+    },
+    "section26": {
+      "title": "26. ACKNOWLEDGMENT OF RISK",
+      "p1": "26.1. It should be noted that depending on market conditions and fluctuations, the value of Financial Instruments may increase or decrease or even decrease to zero."
+    },
+    "section27": {
+      "title": "27. CONFIDENTIAL INFORMATION",
+      "p1": "27.1. The Company shall have no obligation to disclose any information to you or to take any information into account in making any decision or taking any action on your behalf unless otherwise agreed and specified in this Agreement."
+    },
+    "section28": {
+      "title": "28. NOTICES",
+      "p1": "28.1. Unless expressly stated otherwise, any notices, instructions, permissions, requests or other communications you provide to Company under the Agreement must be in writing."
+    },
+    "section29": {
+      "title": "29. RECORDING PHONE CALLS",
+      "p1": "29.1. You acknowledge that the Company may record telephone conversations between you and the Company without the use of a warning signal."
+    },
+    "section30": {
+      "title": "30. CONFLICT OF INTEREST",
+      "p1": "30.1. Subject to applicable regulations, the Company is required to have mechanisms in place to manage conflicts of interest between the Company and its clients."
+    },
+    "section31": {
+      "title": "31. BASIC POINTS",
+      "p1": "31.1. You acknowledge that no representations have been made to you by or on behalf of the Company that in any way induce or persuade you to enter into the Agreement."
+    },
+    "section32": {
+      "title": "32. APPLICABLE LAW, JURISDICTION",
+      "p1": "32.1. This Agreement and all business relations between you and the Company shall be governed by the laws of Saint Lucia and the competent court to resolve any dispute that may arise between them shall be the District Court for the district in which the Company is headquartered."
+    }
+  },
+  "aboutUs": {
+    "hero": {
+      "title": "Who We Are",
+      "description": "We're one of the world's leading online trading organizations, giving both novice and experienced traders rapid access to a wide range of trading instruments. We have been in the online trading sector for more than ten years and are currently a market leader. We are happy to provide the biggest number of traders with the best standards of security, technology, and trading techniques."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "about": "About"
+    },
+    "howItWorks": {
+      "label": "About Us",
+      "title": "How Does It Work?",
+      "description": "At Crypto market, we've cultivated a trading environment that prioritizes security, speed, optimized tools, and more to enhance your trading experience. Our team of professional financial experts has assembled a comprehensive arsenal of tools and trading instruments to facilitate educated yet straightforward trades across various markets. We offer security, speed, ease of access, fast withdrawals, and multiple deposit options. Crypto Market is committed to providing professional support as you navigate the financial markets."
+    },
+    "whatWeOffer": {
+      "title": "What We Offer",
+      "latestTechnologies": {
+        "title": "Latest Technologies",
+        "description": "Our company growth approach prioritizes innovation, and we encourage the deployment of any new trading technology that has been thoroughly evaluated in our in-house laboratories. Investing and financial activities are aided by technology, particularly software that automates and speeds up the trading process."
+      },
+      "tradingGuidance": {
+        "title": "Trading Guidance",
+        "description": "Our staff is always willing to assist our customers in expanding their expertise and becoming more knowledgeable investors. As a result, our knowledgeable customer support representatives are available 24 hours a day, five days a week."
+      },
+      "security": {
+        "title": "Security",
+        "description": "For online transactions, we use the most stringent data security measures. Thousands of traders all around the world have benefited from our trading solutions, which have molded their experience, ambitions, and objectives."
+      },
+      "integrity": {
+        "title": "Integrity",
+        "description": "Our top aim is to include the views of traders in the decision-making process. What sets us apart from the rest of the market rivals is our willingness to listen to traders' opinions, requests, and ideas for improving goods and services. Any product or service changes are made public, and our traders are notified through email."
+      }
+    },
+    "expertise": {
+      "title": "Expertise In Investing",
+      "subtitle": "Nothing should prevent you from reaching where you want and accomplishing your goals.",
+      "office": {
+        "title": "Office:",
+        "address": "Rue du Pré-de-la-Bichette 3, 1201 Genève, Switzerland"
+      },
+      "email": {
+        "title": "Email",
+        "address": "support@Crypto market.com"
+      }
+    }
+  },
+  "company": {
+    "title": "Company Information",
+    "breadcrumb": {
+      "home": "Home",
+      "company": "Company"
+    },
+    "section1": {
+      "title": "Company Overview",
+      "p1": "Crypto market Limited is a leading financial services provider specializing in online trading solutions. Founded over a decade ago, we have established ourselves as a trusted partner for traders worldwide, offering access to diverse financial markets including forex, cryptocurrencies, commodities, indices, and shares.",
+      "p2": "Our commitment to excellence has positioned us as an industry leader, serving thousands of clients across multiple continents. We combine cutting-edge technology with personalized service to deliver an unparalleled trading experience."
+    },
+    "section2": {
+      "title": "Our Mission",
+      "p1": "Our mission is to democratize access to global financial markets by providing innovative trading solutions that empower both novice and experienced traders. We strive to create an environment where every client can achieve their financial goals through transparent, secure, and efficient trading services."
+    },
+    "section3": {
+      "title": "Our Vision",
+      "p1": "We envision a future where financial markets are accessible to everyone, regardless of their location or experience level. Through continuous innovation and unwavering commitment to client success, we aim to become the world's most trusted online trading platform, setting new standards for excellence in the financial services industry."
+    },
+    "section4": {
+      "title": "Our Values",
+      "p1": "Integrity, transparency, and client-centricity form the foundation of everything we do. We believe in building long-term relationships based on trust and mutual success. Our values guide our decisions and actions, ensuring that we always prioritize our clients' best interests while maintaining the highest ethical standards in the industry."
+    },
+    "section5": {
+      "title": "Company History",
+      "p1": "Since our establishment, Crypto market has grown from a small startup to a globally recognized trading platform. Our journey has been marked by continuous innovation, strategic partnerships, and an unwavering focus on client satisfaction. Over the years, we have expanded our service offerings, enhanced our technology infrastructure, and built a team of dedicated professionals committed to excellence."
+    },
+    "section6": {
+      "title": "Leadership Team",
+      "p1": "Our leadership team brings together decades of combined experience in financial markets, technology, and business management. Led by industry veterans who understand the complexities of global trading, our executives are committed to driving innovation while maintaining the highest standards of regulatory compliance and client protection."
+    },
+    "section7": {
+      "title": "Global Presence",
+      "p1": "With offices strategically located in major financial centers, Crypto market serves clients in over 150 countries. Our global presence enables us to provide localized support while maintaining consistent service quality across all regions. We are proud to be a truly international company that understands and respects the diverse needs of our global client base."
+    },
+    "section8": {
+      "title": "Regulatory Compliance",
+      "p1": "Crypto market operates under strict regulatory oversight and maintains all necessary licenses to provide financial services. We adhere to international standards for anti-money laundering, know-your-customer procedures, and client fund protection. Our commitment to regulatory compliance ensures that our clients can trade with confidence, knowing their interests are protected by robust legal and operational frameworks."
+    }
+  },
+  "login": {
+    "placemail": "Enter your Email",
+    "placepass": "Enter Password",
+    "backToHome": "Back to home",
+    "signIn": "Sign In",
+    "signingIn": "Signing in...",
+    "welcomeBack": "Welcome back to your trading platform",
+    "emailOrUsername": "Email or Username",
+    "enterEmailOrUsername": "Enter your email or username",
+    "password": "Password",
+    "enterPassword": "Enter your password",
+    "twoFactorCode": "Two-Factor Code",
+    "enter2fa": "Enter 2FA code",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "dontHaveAccount": "Don't have an account?",
+    "signUp": "Sign up",
+    "startTrading": "Start Trading Today",
+    "benefits": {
+      "pairAccess": "Access to 100+ cryptocurrency trading pairs",
+      "advancedTools": "Advanced trading tools and real-time market data",
+      "secureWallet": "Secure wallet with industry-leading protection",
+      "customerSupport": "24/7 customer support and educational resources"
+    },
+    "totalVolume": "Total Trading Volume",
+    "activeTraders": "Active Traders",
+    "countries": "Countries"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?"
+  },
+  "register": {
+    "back": "Back to home",
+    "createAccount": "Create Account",
+    "subtitle": "Join our trading platform today",
+    "firstName": "First Name",
+    "pfirstName": "First Name",
+    "plastName": "Last Name",
+    "pemail": "Enter email",
+    "pusername": "Username",
+    "ppassword": "Enter password",
+    "pphoneNumber": "Enter phone",
+    "lastName": "Last Name",
+    "email": "Email",
+    "username": "Username",
+    "password": "Password",
+    "phoneNumber": "Phone Number",
+    "country": "Country",
+    "language": "Language",
+    "dateOfBirth": "Date of Birth",
+    "pickDate": "Pick a date",
+    "searchCountries": "Search countries...",
+    "noCountry": "No country found.",
+    "selectCountry": "Select your country",
+    "searchLanguages": "Search languages...",
+    "noLanguage": "No language found.",
+    "selectLanguage": "Select your language",
+    "submit": "Create Account",
+    "loading": "Creating account...",
+    "alreadyHaveAccount": "Already have an account?",
+    "signIn": "Sign in",
+    "benefitsTitle": "Unlock Your Trading Potential",
+    "benefits": [
+      "Access to 100+ cryptocurrency trading pairs",
+      "Advanced trading tools and real-time market data",
+      "Secure wallet with industry-leading protection",
+      "24/7 customer support and educational resources"
+    ],
+    "volume": "Total Trading Volume",
+    "traders": "Active Traders",
+    "countries": "Countries",
+    "placeholder": {
+      "firstName": "Enter your first name",
+      "lastName": "Enter your last name",
+      "email": "Enter your email",
+      "username": "Choose a username",
+      "password": "Create a password",
+      "phoneNumber": "Enter your phone number"
+    }
+  },
+  "accountTypes": {
+    "hero": {
+      "title": "Trading Accounts",
+      "subtitle": "Our mission is to reach your goals Trade with the most convenient trading conditions.",
+      "button": "START TRADING"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "accountTypes": "Account Types"
+    },
+    "tiers": {
+      "trial": "Trial",
+      "bronze": "Bronze",
+      "silver": "Silver",
+      "golden": "Golden",
+      "platinum": "Platinum",
+      "vip": "VIP"
+    },
+    "features": {
+      "tradingTools": "Trading Tools",
+      "spreads": "Spreads",
+      "withdrawals": "Withdrawals",
+      "minimumDeposit": "Minimum Deposit",
+      "customerService": "24/5 customer Service",
+      "liveSessions": "Live Sessions with Account Manager",
+      "leverage": "Leverage",
+      "dailyMarketReviews": "Daily Market Reviews",
+      "tradingAlerts": "Trading Alerts & Events Analysis",
+      "vipMentorship": "VIP Mentorship Program",
+      "bonusPromotions": "Bonus Promotions",
+      "aiTradingSoftware": "AI Trading Software",
+      "nfpTradingSignals": "NFP Trading Signals",
+      "arbitrageTrading": "Arbitrage Trading"
+    },
+    "values": {
+      "tradingTools": {
+        "trial": "Basic charting & Indicators",
+        "bronze": "Access to Daily Markets updates",
+        "silver": "Access to Daily Markets updates",
+        "golden": "Access to Daily Markets updates",
+        "platinum": "Access to Daily Markets updates",
+        "vip": "Access to Daily Markets updates"
+      },
+      "spreads": {
+        "trial": "Standard",
+        "bronze": "Slightly reduced",
+        "silver": "Lower spreads than Bronze",
+        "golden": "Lower spreads than Silver",
+        "platinum": "Lower spreads than Gold",
+        "vip": "Lower spreads than Platinum"
+      },
+      "withdrawals": {
+        "trial": "Standard Processing up to 72 hours",
+        "bronze": "Up to 48 hours",
+        "silver": "Up to 48 hours",
+        "golden": "Up to 48 hours",
+        "platinum": "Up to 48 hours",
+        "vip": "Up to 48 hours"
+      },
+      "minimumDeposit": {
+        "trial": "€ 250",
+        "bronze": "€5 000",
+        "silver": "€20 000",
+        "golden": "€50 000",
+        "platinum": "€250 000",
+        "vip": "€ 500 000"
+      },
+      "customerService": {
+        "trial": "✓",
+        "bronze": "Email + Live chat",
+        "silver": "Email + Live chat",
+        "golden": "Email + Live chat",
+        "platinum": "Email + Live chat",
+        "vip": "Email + Live chat"
+      },
+      "liveSessions": {
+        "trial": "1 time/week",
+        "bronze": "2 times/week",
+        "silver": "3 times/week",
+        "golden": "Daily",
+        "platinum": "Unlimited",
+        "vip": "Unlimited"
+      },
+      "leverage": {
+        "trial": "Up to 1:10",
+        "bronze": "Up to 1:20",
+        "silver": "Up to 1:40",
+        "golden": "Up to 1:50",
+        "platinum": "Up to 1:75",
+        "vip": "Up to 1:100"
+      },
+      "bonusPromotions": {
+        "trial": "20%",
+        "bronze": "30%",
+        "silver": "40%",
+        "golden": "50%",
+        "platinum": "70%",
+        "vip": "70%"
+      },
+      "aiTradingSoftware": {
+        "trial": "Smart AI",
+        "bronze": "Advanced AI",
+        "silver": "Premium AI",
+        "golden": "Elite Intelligence AI",
+        "platinum": "Next-Gen AI",
+        "vip": "Next-Gen AI"
+      },
+      "nfpTradingSignals": {
+        "trial": "Regular - 1/day",
+        "bronze": "Regular - 2/day",
+        "silver": "Regular - 3/day",
+        "golden": "VIP - 5/day",
+        "platinum": "Priority - 10/day",
+        "vip": "Priority - 10/day"
+      }
+    },
+    "openAccount": "OPEN ACCOUNT"
+  },
+  "payments": {
+    "table": {
+      "method": "Method",
+      "processingTime": "Processing Time",
+      "fees": "Fees"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "payments": "Payments"
+    },
+    "methods": {
+      "wire": "WIRE",
+      "ewallet": "e-Wallet",
+      "visaMaster": "Visa/MasterCard",
+      "visa": "VISA",
+      "maestro": "Maestro",
+      "bankTransfer": "Bank Transfer"
+    },
+    "processing": {
+      "instantly": "INSTANTLY"
+    },
+    "fees": {
+      "depends": "Depends on the client's bank."
+    },
+    "buttons": {
+      "withdrawals": "WITHDRAWALS",
+      "deposits": "DEPOSITS"
+    },
+    "meta": {
+      "locale": "Locale"
+    }
+  },
+  "tradingNews": {
+    "title": "Top Stories",
+    "categories": {
+      "model3": "Model 3",
+      "existAtAll": "Exist at All",
+      "projections": "Projections"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "tradingNews": "Trading News"
+    },
+    "timestamps": {
+      "2daysAgo": "2 days ago",
+      "3daysAgo": "3 days ago",
+      "4daysAgo": "4 days ago"
+    },
+    "headlines": {
+      "gbpUsd": "GBP/USD: Pound Struggles to Break Out of Short-Term Range Trading Near $1.35. What's Next?",
+      "ixic": "IXIC: Nasdaq Composite Jumps 0.7% to New Closing High, S&P 500 Follows Right Up",
+      "amdStock": "AMD Stock Soars 30% as OpenAI Seeks 10% Stake. Why This Collab Threatens Nvidia.",
+      "usdJpy": "USD/JPY: Dollar Zooms Past ¥150, Yen Plunges on Pro-Stimulus Takaichi Win. Bye, Bye Rate Hikes?",
+      "xauUsd": "XAU/USD: Gold Rips Above $3,900 as Traders Rush into the Haven Play Amid Gloomy Outlook",
+      "btcUsd": "BTC/USD: Bitcoin Jumps to Record $125,000 Despite Govt Shutdown. Welcome, Uptober."
+    }
+  },
+  "forex": {
+    "title": "How Does It Work?",
+    "paragraph1": "Forex trading, at its most basic level, is comparable to the currency exchange you could do when traveling abroad: A trader purchases one currency and sells another, and the exchange rate swings frequently as a result of supply and demand.",
+    "paragraph2": "The foreign exchange market, a worldwide marketplace operating 24 hours a day from Monday to Friday, is where currencies are transacted. Forex trading takes place entirely over the counter (OTC), which means there is no physical transaction and the market is supervised by a worldwide network of banks and other financial organizations.",
+    "paragraph3": "The forex market is dominated by institutional traders, such as those employed by banks, hedge funds, and multinational organizations. These traders are not always interested in acquiring actual custody of the currencies; they may be speculating on or hedging against future exchange rate swings.",
+    "breadcrumb": {
+      "home": "Home",
+      "forex": "Forex"
+    }
+  },
+  "indices": {
+    "title": "How Does It Work?",
+    "paragraph1": "Index trading is a common method for investors to acquire exposure to financial markets without researching and investing directly in business stocks. Trading stock market indices is a risk-mitigation strategy for stock trading. An index is normally constructed as a weighted average of the prices of its component companies. Any index specifies the requirements that a business must satisfy to be included.",
+    "paragraph2": "By monitoring the performance of a large number of stocks, an index attempts to capture the status of a wide industrial sector or a country's stock market as its whole. For investors to purchase and sell, fund providers develop active and passive index-linked funds, as well as derivatives.",
+    "paragraph3": "Indices serve as a barometer of the stock market's performance as a whole. The direction of an index's value reveals the economy's or industrial sector's health.",
+    "breadcrumb": {
+      "home": "Home",
+      "indices": "Indices"
+    }
+  },
+  "shares": {
+    "title": "How Does It Work?",
+    "paragraph1": "Share trading is the process of purchasing and acquiring ownership of a company's shares and then selling them at a profit. Normally, you would establish a 'nominee' account in this situation. Frequently, for a nominal charge, a stockbroker will execute deals on your behalf. The majority of stock trading occurs on exchanges that list publicly traded corporations. This strategy involves the direct purchase and sale of shares through spot or forward contracts.",
+    "paragraph2": "Investment does not have to be restricted to stock market indexes and individual stocks. Additionally, you may invest in exchange-traded funds and mutual funds, or further, diversify your portfolio by purchasing stocks and bonds.",
+    "paragraph3": "Alternatively, you may trade stocks via the use of derivatives such as spread bets and contracts for difference (CFDs). In this manner, you may profit from increasing and declining share prices by taking a long or short position. You do not acquire ownership of the underlying shares when you trade spread betting or CFDs. You just predict whether prices will increase or decrease and take a position accordingly.",
+    "breadcrumb": {
+      "home": "Home",
+      "shares": "Shares"
+    }
+  },
+  "goods": {
+    "title": "How Does It Work?",
+    "paragraph1": "Investors purchase and sell commodities via exchange-traded futures contracts or over-the-counter forward contracts. This practically implies that prices are decided upon months in advance, and these exchanges standardize the commodity's quantity and minimum quality. There will be a real exchange of items on the physical commodities market. Additionally, a breakfast cereal manufacturer may purchase a corn futures contract with a delivery date months in the future....Thus, purchasing maize via a futures contract protects the buyer if the future market price of corn exceeds the agreed price.",
+    "paragraph2": "With the knowledge that the transaction will occur, both parties may plan and budget with confidence. However, the majority of commodity traders do not take physical possession of the goods.",
+    "paragraph3": "Speculators or traders in commodities take a financial stake (long or short) in a particular commodity. This can be accomplished through the use of an online trading platform.",
+    "breadcrumb": {
+      "home": "Home",
+      "goods": "Goods"
+    }
+  }
+}
