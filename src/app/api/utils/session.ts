@@ -5,7 +5,6 @@ import { cookies } from "next/headers";
 export const deleteSession = async () => {
   const cookieStore = await cookies();
 
-  // Clear all auth-related cookies
   cookieStore.delete("accessToken");
   cookieStore.delete("refreshToken");
   cookieStore.delete("session");
@@ -15,7 +14,7 @@ export const deleteSession = async () => {
 export const createSession = async (
   accessToken: string,
   refreshToken: string,
-  userData?: any
+  userData?: any,
 ) => {
   const cookieStore = await cookies();
 
@@ -26,21 +25,19 @@ export const createSession = async (
     createdAt: new Date().toISOString(),
   };
 
-  // Set session cookie with all data
   cookieStore.set("session", JSON.stringify(sessionData), {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     sameSite: "lax",
-    maxAge: 60 * 60 * 24 * 7, // 7 days
+    maxAge: 60 * 60 * 24 * 7,
     path: "/",
   });
 
-  // Also set individual token cookies for backward compatibility
   cookieStore.set("accessToken", accessToken, {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     sameSite: "lax",
-    maxAge: 60 * 15, // 15 minutes
+    maxAge: 60 * 15,
     path: "/",
   });
 
@@ -48,7 +45,7 @@ export const createSession = async (
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     sameSite: "lax",
-    maxAge: 60 * 60 * 24 * 7, // 7 days
+    maxAge: 60 * 60 * 24 * 7,
     path: "/",
   });
 };

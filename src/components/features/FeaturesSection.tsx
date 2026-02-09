@@ -56,12 +56,12 @@ const FeaturesSection = () => {
       <div className="container mx-auto px-4">
         <div className="mb-12 md:mb-16 text-center md:text-left">
           <div className="text-sm text-gray-400 mb-2 animate-fade-in">
-            {"//"} {t("PROTOCOL_SPECS")}
+            {t("PROTOCOL_SPECS")}
           </div>
 
           <h2 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl animate-slide-left">
-            <span className="text-gray-300">{t("WHY")}</span>
-            <span className="text-cyan-500">{t("_NEXUS")}</span>
+            <span className="text-gray-300">{t("WHY")} </span>
+            <span className="text-cyan-500">{t("NEXUS")}</span>
           </h2>
         </div>
 

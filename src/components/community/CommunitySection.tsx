@@ -48,7 +48,7 @@ const CommunitySection = () => {
               {"//"} {t("COMMUNITY_PULSE")}
             </div>
             <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl animate-slide-left leading-tight">
-              <span className="text-gray-300">{t("THE")}</span>
+              <span className="text-gray-300">{t("THE")} </span>
               <span className="text-cyan-500">{t("_NETWORK")}</span>
             </h2>
           </div>
@@ -119,29 +119,9 @@ const CommunitySection = () => {
             </span>
           </div>
 
-          {/* Description */}
           <p className="text-sm sm:text-base text-gray-400 max-w-md mx-auto mb-6 sm:mb-8 px-4">
             {t("CTA_DESCRIPTION")}
           </p>
-
-          {/* CTA Buttons */}
-          {/* <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-stretch sm:items-center max-w-lg mx-auto">
-            <a
-              href="#"
-              className="inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-cyan-500 text-[#141414] font-mono text-sm sm:text-base hover:opacity-90 transition-opacity neon-border-cyan flex-1 sm:flex-initial"
-            >
-              <span className="truncate">{t("JOIN_DISCORD")}</span>
-              <ArrowUpRight className="w-4 h-4 shrink-0" />
-            </a>
-
-            <a
-              href="#"
-              className="inline-flex text-white items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 border-2 border-gray-600/20 font-mono text-sm sm:text-base hover:border-cyan-500 hover:text-cyan-500 transition-colors flex-1 sm:flex-initial"
-            >
-              <span className="truncate">{t("FOLLOW_TWITTER")}</span>
-              <ArrowUpRight className="w-4 h-4 shrink-0" />
-            </a>
-          </div> */}
         </div>
       </div>
     </section>

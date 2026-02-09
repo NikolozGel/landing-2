@@ -1,4 +1,3 @@
-// components/hero/HeroSectionClient.tsx
 "use client";
 
 import { useTranslations } from "next-intl";
@@ -15,6 +14,7 @@ type HeroSectionClientProps = {
 
 const HeroSection = ({ stats }: HeroSectionClientProps) => {
   const t = useTranslations("heroSection");
+  const tStats = useTranslations("heroSection.stats");
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16 scanlines">
@@ -45,7 +45,9 @@ const HeroSection = ({ stats }: HeroSectionClientProps) => {
                 key={stat.key}
                 className="brutal-card p-4 hover:translate-x-1 hover:-translate-y-1 transition-transform"
               >
-                <div className="text-xs text-gray-400 mb-1">{stat.key}</div>
+                <div className="text-xs text-gray-400 mb-1">
+                  {tStats(stat.key)}
+                </div>
                 <div className="text-2xl md:text-3xl font-display text-white">
                   {stat.value}
                 </div>

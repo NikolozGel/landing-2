@@ -12,7 +12,6 @@ export const logApiError = async (ctx: ApiErrorContext) => {
   const { endpoint, options, response, rawErrorData, fallbackMessage } = ctx;
   const status = response?.status;
 
-  // ANSI color codes
   const RESET = "\x1b[0m";
   const BOLD = "\x1b[1m";
   const RED = "\x1b[31m";
@@ -23,7 +22,6 @@ export const logApiError = async (ctx: ApiErrorContext) => {
   const CYAN = "\x1b[36m";
   const BR_RED = "\x1b[91m";
 
-  // top separator + header
   console.log(
     `${BOLD}${BR_RED}––––––––––––––––––––––––––––––––––––––––––${RESET}`,
   );
@@ -34,12 +32,10 @@ export const logApiError = async (ctx: ApiErrorContext) => {
     `${BOLD}${BR_RED}––––––––––––––––––––––––––––––––––––––––––${RESET}`,
   );
 
-  // request info
   console.log(`${GREEN}🔗 URL:    ${RESET}`, response?.url);
   console.log(`${CYAN}▶️ Method: ${RESET}`, options.method);
   console.log(`${MAGENTA}📤 Headers:${RESET}`, options.headers);
 
-  // body pretty
   if (options.body) {
     const parsed =
       typeof options.body === "string"
@@ -48,7 +44,6 @@ export const logApiError = async (ctx: ApiErrorContext) => {
           ? Object.fromEntries(options.body)
           : options.body;
 
-    // only the pretty JSON, no raw/object duplicate
     console.log(
       `${YELLOW}📦 Body:\n${RESET}${JSON.stringify(parsed, null, 2)}`,
     );
@@ -57,13 +52,11 @@ export const logApiError = async (ctx: ApiErrorContext) => {
     console.log(`${YELLOW}📦 Body:            ${RESET}<empty>`);
   }
 
-  // separator before payload/fallback
   console.log(
     `${BOLD}${YELLOW}– – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – –${RESET}`,
   );
 
   if (rawErrorData && typeof rawErrorData === "object") {
-    // structured payload
     const { detail, ...rest } = rawErrorData as any;
     console.log(`${BLUE}📥 Payload:${RESET}`, rest);
 
@@ -78,14 +71,11 @@ export const logApiError = async (ctx: ApiErrorContext) => {
       }
     }
   } else {
-    // no structured payload: show fallback as the payload
     console.log(`${BLUE}📥 Payload:${RESET} ${fallbackMessage}`);
   }
 
-  // server payload vs fallback
   console.log(`${BLUE}📥 Payload: ${RESET}`, rawErrorData ?? fallbackMessage);
 
-  // bottom separator
   console.log(
     `${BOLD}${YELLOW}– – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – –${RESET}`,
   );

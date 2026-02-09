@@ -4,8 +4,8 @@ import { useLocale } from "next-intl";
 import { useRouter } from "next/navigation";
 import { Card, CardContent } from "@/components/ui/card";
 import RegisterPageHeader from "@/components/form/RegisterPageHeader";
-import { RegistrationForm } from "@/components/user-registration-form copy/RegistrationForm";
-import { SignInLink } from "@/components/user-registration-form copy/SignInLink";
+import { RegistrationForm } from "@/components/user-registration-form/RegistrationForm";
+import { SignInLink } from "@/components/user-registration-form/SignInLink";
 
 export default function UserRegistrationForm() {
   const router = useRouter();

@@ -5,7 +5,6 @@ import {
   SelectContent,
   SelectGroup,
   SelectItem,
-  SelectLabel,
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
@@ -66,10 +65,6 @@ export function LanguageSelect({
                      max-h-64 overflow-y-auto backdrop-blur-md"
         >
           <SelectGroup>
-            {/* <SelectLabel className="text-gray-400 text-xs px-3 py-2 sticky top-0 bg-gray-900/95">
-              {label}
-            </SelectLabel> */}
-
             {languages.map((country) => (
               <SelectItem
                 key={country.id}

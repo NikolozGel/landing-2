@@ -18,7 +18,13 @@
     "headingLine1": "DECENTRALIZED",
     "headingLine2": "TRADING",
     "headingLine3": "PROTOCOL",
-    "subtitle": "Crypto market infrastructure for permissionless, trustless, and censorship-resistant asset exchange. Built different."
+    "subtitle": "Crypto market infrastructure for permissionless, trustless, and censorship-resistant asset exchange. Built different.",
+    "stats": {
+      "TVL": "TVL",
+      "VOLUME_24H": "24h Volume",
+      "USERS": "Users",
+      "PROTOCOLS": "Protocols"
+    }
   },
   "footer": {
     "about": "About",
@@ -278,21 +284,21 @@
 
   "Community": {
     "COMMUNITY_PULSE": "COMMUNITY_PULSE",
-    "THE": "THE",
-    "_NETWORK": "_NETWORK",
+    "THE": "THE_",
+    "_NETWORK": "Crypto Market",
 
     "TWITTER": "TWITTER",
     "DISCORD": "DISCORD",
     "GITHUB": "GITHUB",
 
     "TESTIMONIAL_1": {
-      "content": "NEXUS has completely changed how I trade. The speed is unreal and the UX is cleaner than anything else out there."
+      "content": "Crypto Market has completely changed how I trade. The speed is unreal and the UX is cleaner than anything else out there."
     },
     "TESTIMONIAL_2": {
       "content": "Finally a protocol that puts developers first. The SDK is incredibly well documented and the team is super responsive."
     },
     "TESTIMONIAL_3": {
-      "content": "Been using NEXUS for 6 months now. Zero downtime, zero issues. This is what should be."
+      "content": "Been using Crypto Market for 6 months now. Zero downtime, zero issues. This is what should be."
     },
     "TESTIMONIAL_4": {
       "content": "The self-custody features give me peace of mind. No more worrying about exchange hacks or withdrawal freezes."
@@ -310,8 +316,8 @@
   },
   "Features": {
     "PROTOCOL_SPECS": "PROTOCOL_SPECS",
-    "WHY": "WHY",
-    "_NEXUS": "_NEXUS",
+    "WHY": "WHY_",
+    "NEXUS": "Crypto market",
 
     "BATTLE_TESTED": {
       "title": "BATTLE TESTED",

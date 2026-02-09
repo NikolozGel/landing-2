@@ -4,10 +4,10 @@ export const COOKIE_CONFIG = {
   },
   ACCESS_TOKEN: {
     name: "accessToken",
-    maxAge: 60 * 15, // 15 minutes
+    maxAge: 60 * 15,
   },
   REFRESH_TOKEN: {
     name: "refreshToken",
-    maxAge: 60 * 60 * 24 * 7, // 7 days
+    maxAge: 60 * 60 * 24 * 7,
   },
 } as const;

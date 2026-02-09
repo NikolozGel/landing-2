@@ -7,7 +7,7 @@ import { Eye, EyeOff } from "lucide-react";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { RegisterSchema } from "@/components/user-registration-form copy/registrationSchema";
+import { RegisterSchema } from "@/components/user-registration-form/registrationSchema";
 
 interface AccountCredentialsFieldsProps {
   register: UseFormRegister<RegisterSchema>;
@@ -79,13 +79,13 @@ export function AccountCredentialsFields({
           variant="ghost"
         >
           {showPassword ? (
-            <Eye className="h-4 w-4 bg-red-200 text-white/60" />
+            <Eye className="h-4 w-4 text-white/60" />
           ) : (
             <EyeOff className="h-4 w-4 text-white/60" />
           )}
         </Button>
         {errors.password && (
-          <p className="text-red-400 text-sm">{errors.password.message}</p>
+          <p className=" text-sm text-red-400">{errors.password.message}</p>
         )}
       </div>
     </>

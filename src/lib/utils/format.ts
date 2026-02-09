@@ -17,7 +17,6 @@ export function formatCompactPrice(value: number) {
   if (absValue >= 1_000) return (value / 1_000).toFixed() + "K";
   if (absValue >= 100) return value.toFixed();
 
-  // პატარა ფასები – ზუსტად ის, რაც არის
   return value.toString();
 }
 

@@ -18,7 +18,13 @@
     "headingLine1": "DEZENTRALISIERTES",
     "headingLine2": "TRADING",
     "headingLine3": "PROTOKOLL",
-    "subtitle": "Krypto-markt der nächsten Generation für erlaubnisfreien, vertrauenslosen und zensurresistenten Asset-Handel. Anders gebaut."
+    "subtitle": "Krypto-markt der nächsten Generation für erlaubnisfreien, vertrauenslosen und zensurresistenten Asset-Handel. Anders gebaut.",
+    "stats": {
+      "TVL": "TVL",
+      "VOLUME_24H": "24h Volumen",
+      "USERS": "Nutzer",
+      "PROTOCOLS": "Protokolle"
+    }
   },
   "footer": {
     "userLogin": "BENUTZERLOGIN",
@@ -99,20 +105,20 @@
   "Community": {
     "COMMUNITY_PULSE": "COMMUNITY_PULS",
     "THE": "DAS",
-    "_NETWORK": "_NETZWERK",
+    "_NETWORK": "_Kryptomarkt",
 
     "TWITTER": "TWITTER",
     "DISCORD": "DISCORD",
     "GITHUB": "GITHUB",
 
     "TESTIMONIAL_1": {
-      "content": "NEXUS hat meine Art zu traden komplett verändert. Die Geschwindigkeit ist unglaublich und das UX ist besser als alles andere."
+      "content": "Kryptomarkt hat meine Art zu traden komplett verändert. Die Geschwindigkeit ist unglaublich und das UX ist besser als alles andere."
     },
     "TESTIMONIAL_2": {
       "content": "Endlich ein Protokoll, das Entwickler an erste Stelle setzt. Das SDK ist hervorragend dokumentiert und das Team reagiert schnell."
     },
     "TESTIMONIAL_3": {
-      "content": "Ich nutze NEXUS seit 6 Monaten. Keine Ausfälle, keine Probleme. So sollte DeFi sein."
+      "content": "Ich nutze Kryptomarkt seit 6 Monaten. Keine Ausfälle, keine Probleme. So sollte DeFi sein."
     },
     "TESTIMONIAL_4": {
       "content": "Die Self-Custody-Funktionen geben mir Sicherheit. Keine Sorgen mehr über Exchange-Hacks oder eingefrorene Auszahlungen."
@@ -198,7 +204,7 @@
   "Features": {
     "PROTOCOL_SPECS": "PROTOKOLL_SPEZIFIKATIONEN",
     "WHY": "WARUM",
-    "_NEXUS": "_NEXUS",
+    "NEXUS": "Kryptomarkt",
 
     "BATTLE_TESTED": {
       "title": "ERPROBT",

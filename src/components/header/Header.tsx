@@ -16,11 +16,9 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const closeMenu = () => setIsOpen(false);
 
-  // Close mobile menu when screen size changes to desktop
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 1024) {
-        // lg breakpoint
         setIsOpen(false);
       }
     };
@@ -42,7 +40,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/0 backdrop-blur-sm border-b-2 border-foreground/10">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background/0 backdrop-blur-xl border-b-2 border-foreground/10">
       <div>
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-3 px-4">
@@ -59,7 +57,6 @@ const Header = () => {
             </Link>
           </div>
 
-          {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-1">
             {navItems.map((item) => (
               <Link
@@ -72,12 +69,7 @@ const Header = () => {
             ))}
           </div>
 
-          {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-3 px-10">
-            <div className="hidden xl:block">
-              <LanguageSwitcher />
-            </div>
-
             <Link href={`/${locale}/register`}>
               <Button
                 variant="ghost"
@@ -92,9 +84,11 @@ const Header = () => {
                 {t("buttons.signUp")}
               </Button>
             </Link>
+            <div className="hidden xl:block">
+              <LanguageSwitcher />
+            </div>
           </div>
 
-          {/* Mobile Menu Button */}
           <button
             className="lg:hidden p-2 text-white cursor-pointer"
             onClick={() => setIsOpen((prev) => !prev)}
@@ -103,7 +97,6 @@ const Header = () => {
           </button>
         </div>
 
-        {/* Mobile Navigation */}
         {isOpen && (
           <div className="lg:hidden p-4 border-t border-foreground/10 animate-fade-in">
             <div className="flex flex-col gap-2">
@@ -119,7 +112,7 @@ const Header = () => {
               ))}
 
               <div className="flex items-center justify-center gap-3 pt-4 px-4">
-                <Link href={`/${locale}/register`} onClick={closeMenu}>
+                <Link href={`/${locale}/sign-in`} onClick={closeMenu}>
                   <Button
                     variant="ghost"
                     className="border-2 text-white hover:opacity-60 cursor-pointer border-foreground/20 hover:border-accent hover:text-accent text-lg px-8 py-2"
@@ -128,7 +121,7 @@ const Header = () => {
                   </Button>
                 </Link>
 
-                <Link href={`/${locale}/sign-in`} onClick={closeMenu}>
+                <Link href={`/${locale}/register`} onClick={closeMenu}>
                   <Button className="border-2 text-white hover:opacity-60 cursor-pointer border-foreground/20 hover:border-accent hover:text-accent text-lg px-8 py-2">
                     {t("buttons.signUp")}
                   </Button>

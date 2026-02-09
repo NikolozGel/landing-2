@@ -37,14 +37,14 @@ export default function LanguageSwitcher() {
   const currentLanguage = languages[locale as keyof typeof languages];
 
   return (
-    <div className="text-white border-2 border-white rounded-lg">
+    <div className="text-white border-2 border-gray-500 rounded-lg">
       <DropdownMenu modal={false} onOpenChange={setIsOpen}>
         <DropdownMenuTrigger asChild>
           <Button
             variant="ghost"
             className=" 
                   md:inline-flex
-                  items-center gap-2
+                  items-center gap-2 
                   px-3 py-2
                   text-sm font-medium
                   text-foreground
@@ -63,7 +63,7 @@ export default function LanguageSwitcher() {
             <span className="font-semibold">{currentLanguage.code}</span>
             <ChevronDown
               className={cn(
-                "h-4 w-4 transition-transform duration-200",
+                "h-4 w-4 transition-transform text-gray-500 duration-200",
                 isOpen && "rotate-180",
               )}
             />
@@ -74,7 +74,7 @@ export default function LanguageSwitcher() {
           className="
                   min-w-37.5 text-gray-300
                   rounded-md
-                  border border-border
+                  border border-gray-500
                   bg-card/95  
                   backdrop-blur-xl
                   p-1

@@ -4,14 +4,14 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import type { AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime";
-import { useRegistrationData } from "@/components/user-registration-form copy/userRegistrationData";
-import { useRegistrationForm } from "@/components/user-registration-form copy/userRegistrationForm";
-import { RegisterSchema } from "@/components/user-registration-form copy/registrationSchema";
-import { ErrorMessage } from "@/components/user-registration-form copy/ErrorMessage";
-import { PersonalInfoFields } from "@/components/user-registration-form copy/PersonalInfoFields";
-import { AccountCredentialsFields } from "@/components/user-registration-form copy/AccountCredentialsFields";
-import { ContactInfoFields } from "@/components/user-registration-form copy/ContactInfoFields";
-import { PreferencesFields } from "@/components/user-registration-form copy/PreferencesFields";
+import { useRegistrationData } from "@/components/user-registration-form/userRegistrationData";
+import { useRegistrationForm } from "@/components/user-registration-form/userRegistrationForm";
+import { RegisterSchema } from "@/components/user-registration-form/registrationSchema";
+import { ErrorMessage } from "@/components/user-registration-form/ErrorMessage";
+import { PersonalInfoFields } from "@/components/user-registration-form/PersonalInfoFields";
+import { AccountCredentialsFields } from "@/components/user-registration-form/AccountCredentialsFields";
+import { ContactInfoFields } from "@/components/user-registration-form/ContactInfoFields";
+import { PreferencesFields } from "@/components/user-registration-form/PreferencesFields";
 
 interface RegistrationFormProps {
   router: AppRouterInstance;

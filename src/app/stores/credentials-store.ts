@@ -20,7 +20,6 @@ export const useCredentialsStore = create<CredentialsState>()(
     (set, get) => ({
       credentials: null,
       setCredentials: (credentials: LoginCredentials) => {
-        // Validate and sanitize credentials before storing
         if (!validateCredentials(credentials)) {
           console.warn("Invalid credentials provided to store");
           return;
@@ -40,12 +39,11 @@ export const useCredentialsStore = create<CredentialsState>()(
     }),
     {
       name: "web-trader-credentials",
-      // Only persist the essential fields, exclude sensitive data like 2FA codes
       partialize: (state) => ({
         credentials: state.credentials
           ? sanitizeCredentials(state.credentials)
           : null,
       }),
-    }
-  )
+    },
+  ),
 );

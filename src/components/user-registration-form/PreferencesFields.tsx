@@ -6,11 +6,10 @@ import { useTranslations } from "next-intl";
 import { format, parseISO } from "date-fns";
 import type { Country } from "@/app/api/types/countries";
 import type { Language } from "@/app/api/types/languages";
-import { RegisterSchema } from "@/components/user-registration-form copy/registrationSchema";
 import { CountrySelect } from "@/components/form/CountrySelect";
 import { LanguageSelect } from "@/components/form/LanguageSelect";
 import { DateOfBirthPicker } from "@/components/form/DateOfBirthPickerr";
-// import { DateOfBirthPicker } from "@/components/form/DateOfBirthPicker";
+import { RegisterSchema } from "@/components/user-registration-form/registrationSchema";
 
 interface PreferencesFieldsProps {
   countries: Country[];
@@ -49,7 +48,6 @@ export function PreferencesFields({
 
   const dateOfBirthDate = dateOfBirth ? parseISO(dateOfBirth) : undefined;
 
-  // Filter and sort languages
   const selectInputLanguages = languages
     .sort((a, b) => {
       const priorityOrder = ["en", "de"];

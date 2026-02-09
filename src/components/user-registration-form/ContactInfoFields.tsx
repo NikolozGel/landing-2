@@ -4,7 +4,7 @@ import { UseFormRegister, FieldErrors } from "react-hook-form";
 import { useTranslations } from "next-intl";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
-import { RegisterSchema } from "@/components/user-registration-form copy/registrationSchema";
+import { RegisterSchema } from "@/components/user-registration-form/registrationSchema";
 
 interface ContactInfoFieldsProps {
   register: UseFormRegister<RegisterSchema>;

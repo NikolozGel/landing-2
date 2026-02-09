@@ -1,10 +1,7 @@
 import { LoginCredentials } from "../../app/api/types/auth";
 
-/**
- * Validates if the provided credentials are complete and valid
- */
 export const validateCredentials = (
-  credentials: LoginCredentials | null
+  credentials: LoginCredentials | null,
 ): boolean => {
   if (!credentials) return false;
 
@@ -16,11 +13,8 @@ export const validateCredentials = (
   );
 };
 
-/**
- * Sanitizes credentials by removing sensitive fields that shouldn't be persisted
- */
 export const sanitizeCredentials = (
-  credentials: LoginCredentials
+  credentials: LoginCredentials,
 ): LoginCredentials => {
   const { emailOrUsername, password, rememberMe } = credentials;
   return {
@@ -30,14 +24,8 @@ export const sanitizeCredentials = (
   };
 };
 
-/**
- * Checks if credentials are expired (for remember me functionality)
- * This is a placeholder - implement actual expiration logic as needed
- */
 export const areCredentialsExpired = (
-  credentials: LoginCredentials
+  credentials: LoginCredentials,
 ): boolean => {
-  // For now, we'll assume credentials don't expire
-  // You can implement actual expiration logic here based on your requirements
   return false;
 };

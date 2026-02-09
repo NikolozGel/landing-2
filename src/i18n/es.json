@@ -18,7 +18,13 @@
     "headingLine1": "PROTOCOLO",
     "headingLine2": "DETRADING",
     "headingLine3": "DESCENTRALIZADO",
-    "subtitle": "Crypto market DeFi infrastructure for permissionless, trustless, and censorship-resistant asset exchange. Built different."
+    "subtitle": "Crypto market DeFi infrastructure for permissionless, trustless, and censorship-resistant asset exchange. Built different.",
+    "stats": {
+      "TVL": "TVL",
+      "VOLUME_24H": "Volumen 24h",
+      "USERS": "Usuarios",
+      "PROTOCOLS": "Protocolos"
+    }
   },
   "footer": {
     "userLogin": "INICIAR SESIÓN",
@@ -627,20 +633,20 @@
   "Community": {
     "COMMUNITY_PULSE": "PULSO_DE_LA_COMUNIDAD",
     "THE": "LA",
-    "_NETWORK": "_RED",
+    "_NETWORK": "Mercado cripto",
 
     "TWITTER": "TWITTER",
     "DISCORD": "DISCORD",
     "GITHUB": "GITHUB",
 
     "TESTIMONIAL_1": {
-      "content": "NEXUS ha cambiado por completo mi forma de operar. La velocidad es increíble y la experiencia es más limpia que cualquier otra."
+      "content": "Mercado cripto ha cambiado por completo mi forma de operar. La velocidad es increíble y la experiencia es más limpia que cualquier otra."
     },
     "TESTIMONIAL_2": {
       "content": "Finalmente un protocolo que pone a los desarrolladores primero. El SDK está muy bien documentado y el equipo es súper receptivo."
     },
     "TESTIMONIAL_3": {
-      "content": "Llevo usando NEXUS 6 meses. Cero caídas, cero problemas. Así debería ser DeFi."
+      "content": "Llevo usando Mercado cripto 6 meses. Cero caídas, cero problemas. Así debería ser DeFi."
     },
     "TESTIMONIAL_4": {
       "content": "Las funciones de autocustodia me dan tranquilidad. No más preocupaciones por hacks o retiros congelados."
@@ -957,7 +963,7 @@
   "Features": {
     "PROTOCOL_SPECS": "ESPECIFICACIONES_DEL_PROTOCOLO",
     "WHY": "POR QUÉ",
-    "_NEXUS": "_NEXUS",
+    "NEXUS": "Mercado cripto",
 
     "BATTLE_TESTED": {
       "title": "PROBADO EN BATALLA",

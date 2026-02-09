@@ -4,11 +4,12 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { parseISO } from "date-fns";
 import { toast } from "sonner";
+import { useLocale } from "next-intl";
 import { postRegistration } from "@/app/api/auth/postRegistration";
 import {
-  registerSchema,
+  createRegisterSchema,
   RegisterSchema,
-} from "@/components/user-registration-form copy/registrationSchema";
+} from "@/components/user-registration-form/registrationSchema";
 
 interface SubmitResult {
   success: boolean;
@@ -16,8 +17,11 @@ interface SubmitResult {
 }
 
 export function useRegistrationForm() {
+  const locale = useLocale() as "en" | "de" | "es";
+  const schema = createRegisterSchema(locale);
+
   const form = useForm<RegisterSchema>({
-    resolver: zodResolver(registerSchema),
+    resolver: zodResolver(schema),
     defaultValues: {
       firstName: "",
       lastName: "",
@@ -34,7 +38,6 @@ export function useRegistrationForm() {
   const handleFormSubmit = async (
     data: RegisterSchema,
   ): Promise<SubmitResult> => {
-    // Validate date of birth
     if (data.dateOfBirth) {
       const birthDate = parseISO(data.dateOfBirth);
       const today = new Date();
@@ -58,7 +61,6 @@ export function useRegistrationForm() {
       };
     }
 
-    // Submit registration
     const response = await postRegistration(data);
 
     if (response?.errors) {

@@ -48,11 +48,9 @@ export const getCurrentUser = async () => {
       };
     }
 
-    // Otherwise, fetch user data from API
     const userResponse = await getUserSettings();
 
     if (userResponse.success && userResponse.data) {
-      // Update the session with the user data
       try {
         const updatedSessionData = {
           ...sessionData,
@@ -64,7 +62,7 @@ export const getCurrentUser = async () => {
           httpOnly: true,
           secure: process.env.NODE_ENV === "production",
           sameSite: "lax",
-          maxAge: 60 * 60 * 24 * 7, // 7 days
+          maxAge: 60 * 60 * 24 * 7,
           path: "/",
         });
       } catch (updateError) {}

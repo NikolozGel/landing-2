@@ -1,4 +1,3 @@
-// components/hero/HeroSectionServer.tsx
 import { getStats } from "@/app/api/stats/getStats";
 import HeroSection from "@/components/hero/HeroSectionClient";
 

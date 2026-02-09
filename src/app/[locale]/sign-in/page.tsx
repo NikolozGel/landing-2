@@ -21,18 +21,15 @@ import { postLogin } from "@/app/api/auth/postLogin";
 import { postLoginForRedirect } from "@/app/api/auth/postLoginForRedirect";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import z from "zod";
+import { createLoginSchema } from "@/components/user-registration-form/loginSchema";
 import { useCredentials } from "@/components/hooks/use-credentials";
 
-// Zod schema
-const loginSchema = z.object({
-  emailOrUsername: z.string().min(1, "Email or username is required"),
-  password: z.string().min(1, "Password is required"),
-  twoFactorCode: z.string().optional(),
-  rememberMe: z.boolean().optional(),
-});
-
-type LoginFormData = z.infer<typeof loginSchema>;
+type LoginFormData = {
+  emailOrUsername: string;
+  password: string;
+  twoFactorCode?: string;
+  rememberMe?: boolean;
+};
 
 const redirectConfirmAuth = (authKey?: string) => {
   const NEXT_PUBLIC_DASHBOARD_BASE_URL =
@@ -43,14 +40,15 @@ const redirectConfirmAuth = (authKey?: string) => {
 export default function LoginPage() {
   const { storeCredentials } = useCredentials();
   const t = useTranslations("login");
-  const locale = useLocale();
+  const locale = useLocale() as "en" | "de" | "es";
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+
+  const loginSchema = createLoginSchema(locale);
 
   const {
     register,
     handleSubmit,
-
     formState: { errors },
   } = useForm<LoginFormData>({
     resolver: zodResolver(loginSchema),
