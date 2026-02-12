@@ -70,7 +70,7 @@ const Header = () => {
           </div>
 
           <div className="hidden lg:flex items-center gap-3 px-10">
-            <Link href={`/${locale}/register`}>
+            <Link href={`/${locale}/sign-in`}>
               <Button
                 variant="ghost"
                 className="text-white hover:opacity-60 cursor-pointer border-2 border-foreground/20 hover:border-accent hover:text-accent text-lg px-8 py-2"
@@ -79,7 +79,7 @@ const Header = () => {
               </Button>
             </Link>
 
-            <Link href={`/${locale}/sign-in`}>
+            <Link href={`/${locale}/register`}>
               <Button className="text-white hover:opacity-60 cursor-pointer border-2 border-foreground/20 hover:border-accent hover:text-accent text-lg px-8 py-2">
                 {t("buttons.signUp")}
               </Button>

@@ -55,9 +55,9 @@ const FeaturesSection = () => {
     <section id="protocol" className="py-16 md:py-20 relative md:px-15">
       <div className="container mx-auto px-4">
         <div className="mb-12 md:mb-16 text-center md:text-left">
-          <div className="text-sm text-gray-400 mb-2 animate-fade-in">
+          <h2 className="text-sm text-gray-400 mb-2 animate-fade-in">
             {t("PROTOCOL_SPECS")}
-          </div>
+          </h2>
 
           <h2 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl animate-slide-left">
             <span className="text-gray-300">{t("WHY")} </span>
@@ -83,9 +83,9 @@ const FeaturesSection = () => {
                       <h3 className="font-display text-lg sm:text-xl lg:text-2xl text-white mt-3">
                         {t(feature.title)}
                       </h3>
-                      <div className="text-xs sm:text-sm text-gray-400">
+                      <p className="text-xs sm:text-sm text-gray-400">
                         {t(feature.subtitle)}
-                      </div>
+                      </p>
                     </div>
 
                     <p className="text-gray-400 text-sm sm:text-base leading-relaxed mb-3 sm:mb-4">
@@ -94,14 +94,12 @@ const FeaturesSection = () => {
 
                     <div className="inline-flex items-center gap-2 px-2 py-1 sm:px-3 sm:py-1.5 bg-red-500/10 border border-red-500/30 rounded">
                       <div className="w-1.5 h-1.5 rounded-full bg-green-400" />
-                      <span className="text-xs sm:text-sm font-mono text-red-500">
+                      <p className="text-xs sm:text-sm font-mono text-red-500">
                         {t(feature.stats)}
-                      </span>
+                      </p>
                     </div>
                   </div>
                 </div>
-                <div className="absolute top-0 right-0 w-6 h-6 border-t-2 border-r-2 border-red-500/30 opacity-0 group-hover:opacity-100 transition-opacity" />
-                <div className="absolute bottom-0 left-0 w-6 h-6 border-b-2 border-l-2 border-cyan-500/30 opacity-0 group-hover:opacity-100 transition-opacity" />
               </div>
             );
           })}

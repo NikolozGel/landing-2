@@ -24,6 +24,7 @@ export function RegistrationForm({ router, locale }: RegistrationFormProps) {
   const [error, setError] = useState("");
   const { countries, languages } = useRegistrationData();
   const { form, handleFormSubmit } = useRegistrationForm();
+
   const {
     register,
     handleSubmit,

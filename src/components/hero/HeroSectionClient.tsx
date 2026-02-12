@@ -3,7 +3,8 @@
 import { useTranslations } from "next-intl";
 
 type Stat = {
-  key: string;
+  id: number;
+  volume: string;
   value: string;
   delta: string;
 };
@@ -28,9 +29,9 @@ const HeroSection = ({ stats }: HeroSectionClientProps) => {
           </div>
 
           <div className="font-display flex flex-col items-center text-[clamp(2rem,8vw,10rem)] leading-[0.85] mb-4 sm:mb-6 lg:mb-8 animate-slide-left px-4">
-            <p className="block text-gray-300">{t("headingLine1")}</p>
-            <p className="block text-gray-300">{t("headingLine2")}</p>
-            <p className="block text-gray-300">{t("headingLine3")}</p>
+            <h2 className="block text-gray-300">{t("headingLine1")}</h2>
+            <h2 className="block text-gray-300">{t("headingLine2")}</h2>
+            <h2 className="block text-gray-300">{t("headingLine3")}</h2>
           </div>
 
           <div className="max-w-2xl mb-12 animate-fade-in delay-200">
@@ -42,16 +43,16 @@ const HeroSection = ({ stats }: HeroSectionClientProps) => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-20 mb-10 animate-fade-in delay-400">
             {stats.map((stat) => (
               <div
-                key={stat.key}
+                key={stat.id}
                 className="brutal-card p-4 hover:translate-x-1 hover:-translate-y-1 transition-transform"
               >
-                <div className="text-xs text-gray-400 mb-1">
-                  {tStats(stat.key)}
-                </div>
-                <div className="text-2xl md:text-3xl font-display text-white">
+                <p className="text-xs text-gray-400 mb-1">
+                  {tStats(stat.volume)}
+                </p>
+                <p className="text-2xl md:text-3xl font-display text-white">
                   {stat.value}
-                </div>
-                <div
+                </p>
+                <p
                   className={`text-xs ${
                     stat.delta.startsWith("+")
                       ? "text-green-400"
@@ -59,7 +60,7 @@ const HeroSection = ({ stats }: HeroSectionClientProps) => {
                   }`}
                 >
                   {stat.delta}
-                </div>
+                </p>
               </div>
             ))}
           </div>

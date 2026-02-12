@@ -42,7 +42,7 @@ export default function LanguageSwitcher() {
         <DropdownMenuTrigger asChild>
           <Button
             variant="ghost"
-            className=" 
+            className="
                   md:inline-flex
                   items-center gap-2 
                   px-3 py-2

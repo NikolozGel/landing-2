@@ -18,7 +18,6 @@ export default function PaymentsTable() {
   return (
     <div className=" bg-black py-12 px-4 sm:px-6 lg:px-20">
       <div className="w-full mt-14">
-        {/* ================= DESKTOP TABLE ================= */}
         <div className="w-full overflow-hidden">
           <table className="w-full text-sm hidden md:table">
             <thead>
@@ -56,7 +55,6 @@ export default function PaymentsTable() {
             </tbody>
           </table>
 
-          {/* 📱 MOBILE VERSION */}
           <div className="md:hidden divide-y divide-gray-200">
             {rows.map((r, idx) => {
               const isGreen = idx % 2 === 1;
@@ -100,7 +98,6 @@ export default function PaymentsTable() {
           </div>
         </div>
 
-        {/* ================= MOBILE CARDS ================= */}
         <div className="md:hidden">
           {rows.map((r, idx) => {
             const isGreen = idx % 2 === 1;
@@ -145,7 +142,6 @@ export default function PaymentsTable() {
           })}
         </div>
 
-        {/* ================= BUTTONS ================= */}
         <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
           <Link href={`/${locale}/register`} className="w-full sm:w-auto">
             <Button className="w-full border border-white sm:w-auto cursor-pointer px-8 py-4 text-white font-semibold tracking-wider hover:opacity-55 transition">

@@ -36,26 +36,18 @@ const CryptoPrices = ({ prices }: LivePricesProps) => {
           </div>
         </div>
 
-        <div className="w-full">
-          <div className="grid grid-cols-4 sm:grid-cols-8 lg:grid-cols-12 gap-2 sm:gap-3 md:gap-4 px-2 sm:px-3 md:px-4 py-2 md:py-3 text-sm md:text-sm text-gray-400 border-b border-gray-700">
-            <div className="col-span-2 sm:col-span-3 lg:col-span-4">
-              {t("asset")}
-            </div>
-            <div className="col-span-1 sm:col-span-2 text-right">
-              {t("price")}
-            </div>
-            <div className="col-span-1 sm:col-span-2 text-right">
-              {t("change24h")}
-            </div>
-            <div className="hidden lg:block col-span-2 text-right">
-              {t("volume")}
-            </div>
-            <div className="hidden lg:block col-span-2 text-right">
-              {t("marketCap")}
-            </div>
-          </div>
-          <CryptoCharts t={t} prices={prices} />
+        <div className="grid grid-cols-4 sm:grid-cols-8 lg:grid-cols-12 gap-2 sm:gap-3 md:gap-4 px-2 sm:px-3 md:px-4 py-2 md:py-3 text-sm md:text-sm text-gray-400 border-b border-gray-700">
+          <p className="col-span-2 sm:col-span-3 lg:col-span-4">{t("asset")}</p>
+          <p className="col-span-1 sm:col-span-2 text-right">{t("price")}</p>
+          <p className="col-span-1 sm:col-span-2 text-right">
+            {t("change24h")}
+          </p>
+          <p className="hidden lg:block col-span-2 text-right">{t("volume")}</p>
+          <p className="hidden lg:block col-span-2 text-right">
+            {t("marketCap")}
+          </p>
         </div>
+        <CryptoCharts t={t} prices={prices} />
       </div>
     </section>
   );

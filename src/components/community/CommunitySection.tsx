@@ -44,9 +44,9 @@ const CommunitySection = () => {
       <div className="container px-4 sm:px-6 lg:px-8 relative flex flex-col items-center justify-center max-w-7xl mx-auto">
         <div className="w-full flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 sm:gap-8 mb-12 sm:mb-16">
           <div className="flex-1">
-            <div className="text-xs sm:text-sm text-gray-400 mb-2 animate-fade-in">
+            <h2 className="text-xs sm:text-sm text-gray-400 mb-2 animate-fade-in">
               {"//"} {t("COMMUNITY_PULSE")}
-            </div>
+            </h2>
             <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl animate-slide-left leading-tight">
               <span className="text-gray-300">{t("THE")} </span>
               <span className="text-cyan-500">{t("_NETWORK")}</span>
@@ -72,8 +72,6 @@ const CommunitySection = () => {
               >
                 {t(testimonial.content)}
               </p>
-
-              <div className="absolute top-0 right-0 w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 border-t border-r border-cyan-500/0 group-hover:border-cyan-500/50 transition-colors" />
             </div>
           ))}
         </div>
@@ -85,13 +83,13 @@ const CommunitySection = () => {
                 key={stat.label}
                 className="text-center lg:text-left relative"
               >
-                <div className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-300 mb-1 sm:mb-2 leading-tight">
+                <p className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-300 mb-1 sm:mb-2 leading-tight">
                   {stat.value}
-                </div>
+                </p>
 
-                <div className="text-xs sm:text-sm text-gray-400 font-mono wrap-break-words">
+                <p className="text-xs sm:text-sm text-gray-400 font-mono wrap-break-words">
                   {t(stat.label)}
-                </div>
+                </p>
 
                 {index < stats.length - 1 && (
                   <>
@@ -111,9 +109,7 @@ const CommunitySection = () => {
             <span className="text-gray-400 text-sm sm:text-base">
               {t("JOIN")}
             </span>
-            <span className="text-gray-300 text-sm sm:text-base">
-              --community
-            </span>
+            <p className="text-gray-300 text-sm sm:text-base">--community</p>
             <span className="terminal-cursor text-red-500 text-sm sm:text-base">
               █
             </span>
